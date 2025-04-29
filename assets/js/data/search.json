@@ -11,8 +11,8 @@ swcache: true
     "categories": {{ post.categories | join: ', ' | jsonify }},
     "tags": {{ post.tags | join: ', ' | jsonify }},
     "date": "{{ post.date }}",
-    {% include no-linenos.html content=post.content %}
-    {% assign _content = content | strip_html | strip_newlines %}
+    {%- comment -%} {% include no-linenos.html content=post.content %} {%- endcomment -%}
+    {% assign _content = post.content | strip_html | strip_newlines %}  {%- comment -%} Use post.content directly {%- endcomment -%}
     "snippet": {{ _content | truncate: 200 | jsonify }},
     "content": {{ _content | jsonify }}
   }{% unless forloop.last %},{% endunless %}
