@@ -1,7 +1,7 @@
 ---
 title: "Baekjoon 번호 - 제목"
 # description: ""
-categories: [💫Computer, 🌑Algorithm]
+categories: [컴퓨터, 알고리즘]
 tags: [Problem-Solving]
 image: "/assets/img/background/kururu-lab.jpg"
 
@@ -9,11 +9,11 @@ date: 2024-00-00. 00:00
 # last_modified_at: 2024-00-00. 00:00
 ---
 
-## 💫 [문제](https://www.acmicpc.net/problem/번호)
+## [문제](https://www.acmicpc.net/problem/번호)
 
 ---
 
-### 🫧 Example Input/Output
+### Example Input/Output
 
 ```cpp
 // IN
@@ -21,7 +21,7 @@ date: 2024-00-00. 00:00
 // OUT
 ```
 
-## 💫 C++ 풀이
+## C++ 풀이
 
 ---
 
@@ -29,6 +29,6 @@ date: 2024-00-00. 00:00
 
 ```
 
-## 💫 메모
+## 메모
 
 ---
